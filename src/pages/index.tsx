@@ -20,7 +20,7 @@ export default function Home() {
   }
 
 
-  const yes = (event: any) => {
+  const yes = () => {
     setIsPVisible(true);
     setImg("/love.jpg");
   }

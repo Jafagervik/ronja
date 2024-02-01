@@ -12,8 +12,8 @@ export default function Home() {
 
   const no = () => {
     setIsPVisible(false);
-    let text: string = getRandomThreat(threatsStrings) || "NOOOOOOOOOOOO ";
-    let img: string = getRandomThreat(threats) || "/angy6.jpg" ;
+    let text: string = getRandomThreat(threatsStrings) ?? "NOOOOOOOOOOOO ";
+    let img: string = getRandomThreat(threats) ??"/angy6.jpg" ;
     console.log(img);
     setThreat(text);
     setImg(img);
